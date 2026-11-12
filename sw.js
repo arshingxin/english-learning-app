@@ -1,7 +1,7 @@
 // Offline support. The whole app is cached as one versioned snapshot at install time
 // (all files or none) and served only from that snapshot, so the page can never mix
 // files from two releases. BUMP VERSION whenever any file listed below changes.
-const VERSION = 'v4';
+const VERSION = 'v5';
 const CACHE = `english-app-${VERSION}`;
 const ASSETS = [
   './',
